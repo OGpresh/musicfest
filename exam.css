@@ -1,0 +1,82 @@
+body{
+    background: #f08080;
+}
+
+.nah{
+    padding-right: 250px;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    font-size: 26px;
+    border: none;
+    font-weight: 350;
+    background: #f08080;
+    height: 36px;
+    width: 100px;
+    margin-left: 75px;
+    border-radius: 5px;
+}
+.card-text{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    background: #f08080;
+    height: 36px;
+    width: 70px;
+    margin-left: 90px;
+    border-radius: 3px;
+}
+
+.card{
+    text-align: center;
+}
+
+.bt:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+.active{
+    color: #f08080;
+}
+.active:hover{
+    height: 15px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    border: 2px solid #f08080;
+    transform: scale(1.1);
+    transition: transform 0.7s ease;
+
+    
+}
+
+h1,h2 {
+    color: black;
+    animation: slidesin 5.3s forwards;
+    transition: animation 0.5s ease-in-out;
+    color: whte; 
+    font-family: 'Edu TAS Beginner', cursive;"
+}
+
+@keyframes slidesin{
+from{
+    opacity: 0;
+    transform: translateX(-40%);
+}
+
+to{
+    opacity: 1;
+    transform: translateX(0%);
+}
+}

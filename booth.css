@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Edu+NSW+ACT+Foundation&family=Edu+QLD+Beginner&family=Edu+VIC+WA+NT+Beginner&family=Mukta:wght@200&family=Splash&family=Titan+One&display=swap');
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Edu QLD Beginner', cursive; */
+/* font-family: 'Edu VIC WA NT Beginner', cursive; */
+/* font-family: 'Mukta', sans-serif; */
+/* font-family: 'Splash', cursive; */
+body{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+.ground{
+    background: url('./img/interior.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.base{
+    margin: 0 10px 0 10px;
+}
+.light{
+     background-color: #800000;
+     border-radius: 10px;
+     border: 2px solid white;
+     border-top: none;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+}
+
+.ab{
+    cursor: pointer;
+}
+.ab:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+}
+.end{
+    text-align: right;
+    margin-left: 930px;
+}
+
+.text1{
+    text-align: left;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color:  white;
+    padding-left: 50px;
+}
+.text1 .hhh{
+    display: none;
+}
+.text1 h2{
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 15px;
+    text-align: center;
+    padding-right: 750px;
+    animation-delay: 3s;
+    animation: slidesin 5.3s forwards;
+    transition: animation 0.5s ease-in-out;
+}
+@keyframes slidesin{
+    from{
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.text1 h3{
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 1px;
+    padding-right: 750px;
+    text-align: center;
+    padding-bottom: 10px;
+    animation-delay: 2s;
+    animation: slidesin 5.3s forwards;
+    transition: animation 0.5s ease-in-out;
+}
+
+
+
+.text1 button{
+    background: #800000;
+    color: white;
+    margin-left: 220px;
+    border-radius: 10px ;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.text1 button:hover{
+    background: #2eb857;
+    border: 2px solid green;
+}
+
+ .imd{
+    margin-top: -180px;
+    margin-left: 900px;
+    width: 300px;
+}
+
+.bmd{
+  height: 43px;
+}
+
+
+.umd{
+    position: absolute;
+    right: 1%;
+
+}
+.bar{
+   
+    margin: 75px 0px 10px 0px;
+  
+}
+
+.caro{
+    position: absolute;
+    bottom: 7%;
+    left: 77%;
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.car{
+    position: absolute;
+    bottom: 7%;
+    left: 52.7%;
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.cao{
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.co{
+    position: absolute;
+    bottom: 7%;
+    left: 29%;
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.inn{
+    height: 230px;
+    width: 230px;
+    background: #800000;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inn img{
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 8px;
+    animation: rotate 4.4s forwards;
+    transition: animation 2.5s ease;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(360deg);
+    }
+
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+
+@media only screen and (max-width: 376px){
+    body{
+       max-height: 100%;
+       background-size: cover;
+       max-width: 100%;
+    }
+
+     .ground{ 
+         max-width: 100%;
+         max-height: 100%;
+     } 
+     .hp{
+        position: absolute;
+        top: 20%;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        color: white;
+        font-size: 20px;
+        background: transparent;
+        text-align: center;
+     }
+
+    .hhh{
+        text-align: center; 
+        margin-top: 10px;
+        margin-left: 10px; 
+        color: black;
+    }
+
+     .text1 h2, h3,button{ 
+        display: none
+    } 
+     .text1 button{
+        display: none;
+    }
+
+    .bar{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .caro{
+         display: none;
+    }
+
+    .cao{
+        display: none;
+    }
+
+    .co{
+       margin-left: -30px;
+       margin-bottom: -270px;
+    }
+
+    .car{
+        margin-left: -130px;
+    }
+}

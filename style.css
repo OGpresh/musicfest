@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(138, 143, 143);
+}
+
+img{
+    max-width: 100%;
+}
+
+.img{
+    width: 100%;
+    height: 250px;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.img:hover{
+    transform: scale(0.9);
+    transition: transform .5s ease-in;
+}
